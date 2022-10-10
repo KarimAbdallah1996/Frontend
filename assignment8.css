@@ -1,0 +1,98 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: wrap;
+    border: 1px solid;
+}
+.navbar{
+    height: 100vh;
+    width: 30%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+.div-1{
+    background-color: aliceblue;
+    height: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8px;
+}
+.div-2{
+    height: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8px;
+    background-color: aqua;
+}
+.div-3{
+    height: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8px;
+    background-color: black;
+}
+.div-4{
+    height: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8px;
+    background-color: blueviolet;
+}
+
+.section{
+    height: auto;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.div1{
+    height: 25%;
+    width: 25%;
+    background-color: yellow;
+    margin:20px;
+}
+.div2{
+    height: 25%;
+    width: 25%;
+    background-color: yellow;
+    margin:20px;
+}
+.div3{
+    height: 25%;
+    width: 25%;
+    background-color: yellow;
+    margin:20px;
+}
+.div4{
+    height: 25%;
+    width: 25%;
+    background-color: yellow;
+    margin:20px;
+}
+.div5{
+    height: 25%;
+    width: 25%;
+    background-color: yellow;
+    margin:20px;
+}
+.div6{
+    height: 25%;
+    width: 25%;
+    background-color: yellow;
+    margin:20px;
+}
+

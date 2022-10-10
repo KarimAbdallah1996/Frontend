@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<!--
+required attribute : the user will have to fill this field
+value attribute : fireld will have a fixed value
+-->
+<label>required field</label>
+<input type="text" required name="" id="">
+<br><br><br><br>
+<!--
+action : for dealing with the backend (where will the form's info go after submitting) the default url is the same page
+
+method : 
+if we write (get) then the form's info will be displayed in the url 
+if we write (post) then the form's info will not be displayed in the url 
+
+name : 
+1- naming the input all the names will appear in the url if the method is get the meaning is the values will be tranfered and will be referenced by the name
+
+2- in radio buttons i need name so i can check one and one only 
+
+to link the lable with the input we use for and id 
+for: label's attribute - will have the value of the id
+id : input's attribute - will be assiged to for 
+-->
+
+    <form>
+        <label for="">Username</label>
+        <input type="text" name="username">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password" name="password">
+        <br><br>
+        <input type="checkbox" name="accept">
+        <label for="">Accept all</label>
+        <br><br>
+        <input type="submit" value="SignUp">
+        <br><br>
+        <label for="file">Upload File</label>
+        <input type="file" name="" id="file">
+        <br><br>
+        <input type="reset" name="" id="">
+    </form>
+</body>
+</html>
