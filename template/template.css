@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.dashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* text-align: center;
+    justify-content: center; */
+}
+
+#sub {
+    background-color: rgb(82, 82, 248);
+    padding: 5px 50px 5px 50px;
+    color: white;
+    width: 177px;
+}
+a{
+    font-size: 11px;
+    margin-left: 80px;
+}
+
+
+.image-section {
+    display: flex;
+    /* height: 96vh; */
+    /* padding         : 1.5em; */
+    justify-content: center;
+    text-align      : center;
+    max-width       : 450px;
+    margin          : 0 auto;
+    /* flex-shrink: ; */
+}
+
+.info {
+    /* padding         : 1.5em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align      : center;
+    max-width       : 900px;
+    margin          : 300px auto;
+}
